@@ -1,10 +1,9 @@
 # Koffee Bistro - A Flutter Coffee Ordering App ☕
 
-Hey everyone! This is my project, Koffee Bistro, a complete coffee ordering application I built using Flutter. It's been an amazing learning journey, and I'm super excited to share it. The goal was to build a beautiful, functional, and clean app from the ground up.
+Hey everyone! This is my Take Home Assignment, Koffee Bistro, a complete coffee ordering application I built using Flutter. It's been an amazing learning journey, and I'm super excited to share it. The goal was to build a beautiful, functional, and clean app from the ground up.
 
 This wasn't just about making a UI; it was about building a *real* app with a proper architecture, state management, and a focus on a great user experience.
 
-![Koffee Bistro App Home Screen](https://i.imgur.com/your-home-screen-image.png)
 
 ## ✨ About The Project
 
@@ -79,7 +78,7 @@ To get a local copy up and running, follow these simple steps.
     ```
     To run it on Chrome, use:
     ```sh
-    flutter run -d chrome
+    flutter run
     ```
 
 ---
