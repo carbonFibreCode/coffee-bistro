@@ -14,7 +14,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await AppState.instance.initialize();
 
-  //seting up of the device orientation for the best user Experience
+  //setting up of the device orientation for the best user Experience
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]);
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
           Theme.of(context).textTheme,
         ),
       ),
-      initialRoute: initialRoute, //now the route will be dynamic
+      initialRoute: initialRoute, //dynamic initial route
       routes: {
         AppRoutes.onboarding: (context) => const OnboardingScreen(),
         AppRoutes.login: (context) => const LoginScreen(),
